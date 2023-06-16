@@ -5,3 +5,23 @@
 "Qiu":
   - firstname: ["Lili","L."]
     url: https://www.cs.utexas.edu/~lili/
+
+"Li":
+  - firstname: ["Yuanjie","Y."]
+    url: http://www.yuanjiel.com/
+
+"Lu":
+  - firstname: ["Songwu","S."]
+    url: http://web.cs.ucla.edu/~slu/
+
+"Sun":
+  - firstname: ["Wei","W."]
+    url: https://www.cs.utexas.edu/~weisun/
+
+"He":
+  - firstname: ["Jian", "J."]
+    url: https://scholar.google.com.sg/citations?user=MlbOB90AAAAJ&hl=en
+
+"Zhang":
+  - firstname: ["Zhehui","Z."]
+    url: https://zhehuizhang.github.io/
