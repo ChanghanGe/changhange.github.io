@@ -1,5 +1,5 @@
 ---
-layout: miscellaneous
+layout: page
 title: Miscellaneous
 permalink: /Miscellaneous/
 subtitle: #Enjoy it even if it is not enjoyable.
