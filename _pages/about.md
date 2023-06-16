@@ -9,7 +9,7 @@ profile:
   image: chge_profile.jpg
   image_circular: true # crops the image to make it circular
   address: >
-    <p>Gates-Dell Complex (GDC) 6.702D</p>
+    <p>Gates-Dell Complex 6.702D</p>
     <p>2317 Speedway, Stop D9500 </p>
     <p>Austin, TX 78712</p>
 
