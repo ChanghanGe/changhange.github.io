@@ -22,10 +22,6 @@
   - firstname: ["Jian", "J."]
     url: https://scholar.google.com.sg/citations?user=MlbOB90AAAAJ&hl=en
 
-"Zhang":
-  - firstname: ["Zhehui","Z."]
-    url: https://zhehuizhang.github.io/
-
 "Song":
   - firstname: ["Yiwen","Y."]
     url: https://gavinsyw.github.io/
@@ -53,3 +49,7 @@
 "Zhang":
   - firstname: ["Xinyu","X."]
     url: http://xyzhang.ucsd.edu/
+
+"Zhang":
+  - firstname: ["Zhehui","Z."]
+    url: https://zhehuizhang.github.io/
