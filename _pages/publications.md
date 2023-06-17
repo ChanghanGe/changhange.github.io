@@ -15,5 +15,4 @@ nav_order: 1
   {% bibliography -f {{ site.scholar.bibliography }} -q @*[year={{y}}]* %}
 {% endfor %}
 
-
 </div>

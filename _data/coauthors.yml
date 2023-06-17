@@ -26,26 +26,26 @@
   - firstname: ["Zhehui","Z."]
     url: https://zhehuizhang.github.io/
 
-"Song":
-  - firstname: ["Yiwen","Y."]
-    url: https://gavinsyw.github.io/
+# "Song":
+#   - firstname: ["Yiwen","Y."]
+#     url: https://gavinsyw.github.io/
 
-"Zhang":
-  - firstname: ["Yin","Y."]
-    url: https://www.cs.utexas.edu/~yzhang/
+# "Zhang":
+#   - firstname: ["Yin","Y."]
+#     url: https://www.cs.utexas.edu/~yzhang/
 
-"Mahimkar"
-  - firstname: ["Ajay","A."]
-    url: https://sites.google.com/site/ajaymahimkar/
+# "Mahimkar"
+#   - firstname: ["Ajay","A."]
+#     url: https://sites.google.com/site/ajaymahimkar/
 
-"Ge"
-  - firstname: ["Zihui","Z."]
-    url: https://scholar.google.com/citations?hl=en&user=VMcwXCMAAAAJ
+# "Ge"
+#   - firstname: ["Zihui","Z."]
+#     url: https://scholar.google.com/citations?hl=en&user=VMcwXCMAAAAJ
 
-"Liu"
-  - firstname: ["Xuan","X."]
-    url: https://scholar.google.com/citations?user=MT_DWa4AAAAJ&hl=en
+# "Liu"
+#   - firstname: ["Xuan","X."]
+#     url: https://scholar.google.com/citations?user=MT_DWa4AAAAJ&hl=en
 
-"Xiang"
-  - firstname: ["Yu","Y."]
-    url: https://scholar.google.com/citations?user=sEq9KRAAAAAJ&hl=en
+# "Xiang"
+#   - firstname: ["Yu","Y."]
+#     url: https://scholar.google.com/citations?user=sEq9KRAAAAAJ&hl=en
