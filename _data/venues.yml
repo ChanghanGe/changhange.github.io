@@ -4,3 +4,6 @@
 "MobiCom23":
   url: https://www.sigmobile.org/mobicom/2023/index.html
   color: "#00369f"
+
+"Technical Report":
+  color: "#808080"
