@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Albums
-permalink: /Miscellaneous/
+permalink: /Albums/
 subtitle: #Enjoy it even if it is not enjoyable.
 ---
 
