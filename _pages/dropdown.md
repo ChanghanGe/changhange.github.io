@@ -7,5 +7,7 @@ dropdown: true
 children: 
     - title: Miscellaneous
       permalink: /Miscellaneous/
-    #- title: divider
+    - title: divider
+    - title: Albums
+      permalink: /Albums/
 ---
