@@ -336,7 +336,7 @@ imagemagick:
     - ".tiff"
     - ".JPG"
   output_formats:
-    webp: "-resize 800x"
+    webp: "-resize 1200x"
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
