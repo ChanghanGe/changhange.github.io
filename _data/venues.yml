@@ -10,5 +10,8 @@
   url: https://www.sigmobile.org/mobicom/2023/index.html
   color: "#00369f"
 
+"Preprint":
+  color: "#08A045"
+
 "Technical Report":
   color: "#808080"
