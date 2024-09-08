@@ -10,6 +10,10 @@
   url: https://www.sigmobile.org/mobicom/2023/index.html
   color: "#00369f"
 
+"MobiCom 24 Poster":
+  url: https://www.sigmobile.org/mobicom/2024/
+  color: "#00369f"
+
 "ICDCS 24":
   url: https://icdcs2024.icdcs.org/
   color: "#FF9900"
