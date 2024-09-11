@@ -147,14 +147,18 @@
           {%- if entry.url %}
             <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">URL</a>
           {%- endif %}
-          {%- if entry.patent %}
-            <a href="{{ entry.patent }}" class="btn btn-sm z-depth-0" role="button">PATENT</a>
-          {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
             <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
             {%- else -%}
             <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            {%- endif %}
+          {%- endif %}
+          {%- if entry.patent %}
+            {% if entry.patent contains '://' -%}
+            <a href="{{ entry.patent }}" class="btn btn-sm z-depth-0" role="button">Patent</a>
+            {%- else -%}
+            <a href="{{ entry.patent | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Patent</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.supp %}
