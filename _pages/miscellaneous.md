@@ -15,5 +15,5 @@ Through the UESTC Study Abroad Program, I spent the first semester of my senior 
 
 As there are still several years before a new title crowns me, I am now trying to keep my head above the water:)
 
-* My favorite animation movie of all time is "The Garden of Words" by Makoto Shinkai.
-* My favorite mandarin song (recently) is "Amphibian" by Tanya Chua.
+My favorite animation movie of all time is "The Garden of Words" by Makoto Shinkai.
+My favorite mandarin song (recently) is "Amphibian" by Tanya Chua.
