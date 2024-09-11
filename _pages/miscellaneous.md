@@ -14,6 +14,3 @@ From high school to college, I actively engaged in Model United Nations (MUN) ac
 Through the UESTC Study Abroad Program, I spent the first semester of my senior year at the University of California San Diego (UCSD). Then, a few months later, the breeze of the scripps beach brought me back to La Jolla as a master student. Two years in SoCal almost transformed me to a hippie until I moved to Austin TX as a fresh [longhorn](https://www.utexas.edu/content/longhorn-traditions) in 2020. Amid the COVID-19 global pandemic, the kick-off of my Ph.D. study was terrible at all levels. Dangerous virus, deserted lab, empty classroom and virtual meeting stress, all these nightmares made me like a caveman. 
 
 As there are still several years before a new title crowns me, I am now trying to keep my head above the water:)
-
-My favorite animation movie of all time is "The Garden of Words" by Makoto Shinkai.
-My favorite mandarin song (recently) is "Amphibian" by Tanya Chua.
