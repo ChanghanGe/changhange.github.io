@@ -112,14 +112,7 @@
         {% if entry.type == "article" -%}
           {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
         {%- elsif proceedings contains entry.type -%}
-          {%- capture entrytype -%}
-            <em>In {{entry.booktitle}}</em>
-            {% if entry.award -%}
-              <div class="award" style="color: red;">
-                <strong>{{ entry.award }}</strong>
-              </div>
-            {% endif -%}
-          {%- endcapture -%}
+          {%- capture entrytype -%}<em>In {{entry.booktitle}}</em>{%- endcapture -%}
         {%- elsif thesis contains entry.type -%}
           {%- capture entrytype -%}<em>{{entry.school}}</em> {%- endcapture -%}
         {%- else -%}
@@ -131,6 +124,11 @@
         {%- if entry.year -%}
           {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
         {%- endif -%}
+        {% if entry.award -%}
+          <div class="award" style="color: red;">
+            <strong>{{ entry.award }}</strong>
+          </div>
+        {% endif -%}
         {% assign entrytype_text = entrytype | strip_html | strip %}
         {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
         <div class="periodical">
