@@ -113,13 +113,15 @@
           {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
         {%- elsif proceedings contains entry.type -%}
           {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+          {% if entry.award -%}
+            <div class="award">
+              <strong>{{ entry.award }}</strong> 
+            </div>
+          {% endif -%}
         {%- elsif thesis contains entry.type -%}
           {%- capture entrytype -%}<em>{{entry.school}}</em> {%- endcapture -%}
         {%- else -%}
           {%- capture entrytype -%}{%- endcapture -%}
-        {%- endif -%}
-        {%- if entry.award -%}
-          {%- capture entrytype -%}<em>{{entry.award}}</em> {%- endcapture -%}
         {%- endif -%}
         {%- if entry.month -%}
           {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
