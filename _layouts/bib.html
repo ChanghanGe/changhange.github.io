@@ -112,12 +112,14 @@
         {% if entry.type == "article" -%}
           {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
         {%- elsif proceedings contains entry.type -%}
-          {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
-          {% if entry.award -%}
-            <div class="award">
-              <strong>{{ entry.award }}</strong> 
-            </div>
-          {% endif -%}
+          {%- capture entrytype -%}
+            <em>In {{entry.booktitle}}</em>
+            {% if entry.award -%}
+              <div class="award" style="color: red;">
+                <strong>{{ entry.award }}</strong>
+              </div>
+            {% endif -%}
+          {%- endcapture -%}
         {%- elsif thesis contains entry.type -%}
           {%- capture entrytype -%}<em>{{entry.school}}</em> {%- endcapture -%}
         {%- else -%}
