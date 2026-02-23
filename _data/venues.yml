@@ -31,3 +31,7 @@
 "INFOCOM 26":
   url: https://infocom2026.ieee-infocom.org/
   color: "#016064"
+
+"TOMPECS":
+  url: https://dl.acm.org/journal/tompecs
+  color: "#B43757"
