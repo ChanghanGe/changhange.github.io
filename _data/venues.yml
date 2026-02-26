@@ -35,3 +35,7 @@
 "TOMPECS":
   url: https://dl.acm.org/journal/tompecs
   color: "#B43757"
+
+"CVPR 26":
+  url: https://cvpr.thecvf.com/Conferences/2026
+  color: "#4472C4"
