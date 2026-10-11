@@ -219,17 +219,18 @@ body.fixed-top-nav {
 .profile-card figure {
   margin: 0;
   overflow: hidden;
-  border-radius: 0;
+  border: 1px solid var(--global-divider-color-strong);
+  border-radius: 50%;
   background: var(--global-card-bg-color);
 }
 
 .profile-card figure img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-  object-position: center 24%;
-  border-radius: 0 !important;
+  object-position: center;
+  border-radius: 50% !important;
   box-shadow: none !important;
   filter: grayscale(18%) saturate(0.7) contrast(0.96);
 }
