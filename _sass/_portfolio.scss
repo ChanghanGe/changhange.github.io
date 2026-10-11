@@ -84,7 +84,7 @@ body.fixed-top-nav {
   bottom: 0.3rem;
   left: 0.75rem;
   height: 1px;
-  background: var(--global-divider-color-strong);
+  background: var(--global-theme-color);
   content: "";
 }
 
@@ -125,7 +125,7 @@ body.fixed-top-nav {
 .hero-kicker,
 .section-label {
   margin: 0 0 1.25rem;
-  color: var(--global-text-color-light);
+  color: var(--global-theme-color);
   font-size: 0.67rem;
   font-weight: 600;
   letter-spacing: 0.17em;
@@ -182,8 +182,8 @@ body.fixed-top-nav {
 
 .button-primary {
   color: var(--global-bg-color);
-  border-color: var(--global-heading-color);
-  background: var(--global-heading-color);
+  border-color: var(--global-theme-color);
+  background: var(--global-theme-color);
   box-shadow: none;
 }
 
@@ -406,7 +406,7 @@ body.fixed-top-nav {
 }
 
 .next-step .section-label {
-  color: var(--global-text-color-light);
+  color: var(--global-theme-color);
 }
 
 .next-step h2 {
@@ -419,14 +419,14 @@ body.fixed-top-nav {
   margin-top: 1.5rem;
   padding-bottom: 0.15rem;
   border-bottom: 1px solid var(--global-divider-color-strong);
-  color: var(--global-text-color);
+  color: var(--global-theme-color);
   font-size: 0.82rem;
   font-weight: 500;
 }
 
 .next-step a:hover {
-  color: var(--global-heading-color);
-  border-color: var(--global-heading-color);
+  color: var(--global-theme-color-strong);
+  border-color: var(--global-theme-color-strong);
   text-decoration: none;
 }
 

@@ -28,7 +28,7 @@ let setTheme = (theme) => {
   } else {
     document.documentElement.removeAttribute("data-theme");
   }
-  localStorage.setItem("theme", theme);
+  localStorage.setItem("portfolio-theme", theme);
 
   // Updates the background of medium-zoom overlay.
   if (typeof medium_zoom !== "undefined") {
@@ -74,10 +74,10 @@ let transTheme = () => {
 
 let initTheme = (theme) => {
   if (theme == null || theme == "null") {
-    theme = "dark";
+    theme = "light";
   }
 
   setTheme(theme);
 };
 
-initTheme(localStorage.getItem("theme"));
+initTheme(localStorage.getItem("portfolio-theme"));
