@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description: Peer-reviewed research in wireless networking, mobile systems, and network intelligence.
 keywords: Changhan Ge publications, wireless networking research, mobile computing, cellular networks
-years: [2026, 2024, 2023, 2022, 2019]
+years: [2026, 2025, 2024, 2023, 2022, 2019]
 nav: true
 nav_order: 1
 ---
