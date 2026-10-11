@@ -115,6 +115,8 @@
           {%- capture entrytype -%}<em>In {{entry.booktitle}}</em>{%- endcapture -%}
         {%- elsif thesis contains entry.type -%}
           {%- capture entrytype -%}<em>{{entry.school}}</em> {%- endcapture -%}
+        {%- elsif entry.type == "techreport" -%}
+          {%- capture entrytype -%}<em>{{entry.institution}}</em> {%- endcapture -%}
         {%- else -%}
           {%- capture entrytype -%}{%- endcapture -%}
         {%- endif -%}
